@@ -1,0 +1,24 @@
+table {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+td {
+  width: 90px;
+  padding: 5px;
+  height: 50px;
+  border: 2px solid black;
+  font-size: 20px;
+  border-radius: 10px;
+  border-color: teal;
+  color: white;
+  background-color: teal;
+}
+
+@media screen and (max-width: 700px) {
+  table td {
+    width: 3em;
+    font-size: small;
+  }
+}

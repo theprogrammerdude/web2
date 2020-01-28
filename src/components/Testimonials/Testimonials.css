@@ -1,0 +1,44 @@
+.container1 {
+  max-width: 99vw;
+}
+
+.main {
+  display: grid;
+  margin: 1em 5px;
+  grid-template-columns: 1fr 2fr;
+  text-align: center;
+  align-items: center;
+  width: 99%;
+  border: solid 2px darkgoldenrod;
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+  color: darkolivegreen;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2em;
+  color: darkolivegreen;
+}
+
+p {
+  font-size: 1.2em;
+  color: darkgoldenrod;
+}
+
+.profile {
+  width: 200px;
+  height: 200px;
+  padding-top: 25px;
+  border-radius: 50%;
+}
+
+.in {
+  width: 40px;
+  height: 40px;
+  padding: 15px;
+}
