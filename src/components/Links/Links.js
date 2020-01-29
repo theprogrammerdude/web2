@@ -14,7 +14,10 @@ function Links() {
             aspiring to progress to Director/ GM/ VP/ Higher Level Roleswithin
             10-12 years of completing their education.
           </p>
-          <a href="https://www.leaderclasses.com/budding-leaders-contest-foundation-program">
+          <a
+            href="https://www.leaderclasses.com/budding-leaders-contest-foundation-program"
+            target="_black"
+          >
             Know More
           </a>
         </div>
@@ -30,7 +33,10 @@ function Links() {
             keen on acceleration their success to transition into our Future
             Leaders Category within the next 6 to 8 years.
           </p>
-          <a href="https://www.leaderclasses.com/leadership-and-career-development-programs">
+          <a
+            href="https://www.leaderclasses.com/leadership-and-career-development-programs"
+            target="_black"
+          >
             Know More
           </a>
         </div>
@@ -46,7 +52,10 @@ function Links() {
             keen on accelerating their success to transition into a high
             performing C-level wuthin next 6 to 8 months.
           </p>
-          <a href="https://www.leaderclasses.com/future-leaders-form">
+          <a
+            href="https://www.leaderclasses.com/future-leaders-form"
+            target="_black"
+          >
             Express Interest
           </a>
         </div>
@@ -65,14 +74,20 @@ function Links() {
           Annual Compensation of > US $1 Million in India & Over US $5 Million
           if based outside India.
         </p>
-        <a href="https://www.leaderclasses.com/future-leaders-form">
+        <a
+          href="https://www.leaderclasses.com/future-leaders-form"
+          target="_black"
+        >
           Express Interest
         </a>
       </div>
       <p className="last-p">
         To know more about & to join our exclusive, exceptional network of
         ambitious minds, we invite you to review our{" "}
-        <a href="https://www.leaderclasses.com/leadership-and-career-development-programs">
+        <a
+          href="https://www.leaderclasses.com/leadership-and-career-development-programs"
+          target="_black"
+        >
           'Leadership Development and Career Acceleration Program'
         </a>
         page. We are looking forward to heard from you & having you on our

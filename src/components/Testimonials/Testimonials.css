@@ -9,25 +9,28 @@
   text-align: center;
   align-items: center;
   width: 99%;
-  border: solid 2px darkgoldenrod;
-  border-radius: 8px;
+}
+
+hr {
+  width: 70%;
 }
 
 h2 {
   text-align: center;
   font-size: 2em;
-  color: darkolivegreen;
+  color: indianred;
+  text-decoration: underline;
 }
 
 h3 {
   text-align: center;
   font-size: 2em;
-  color: darkolivegreen;
+  color: indianred;
 }
 
 p {
   font-size: 1.2em;
-  color: darkgoldenrod;
+  color: black;
 }
 
 .profile {
@@ -41,4 +44,23 @@ p {
   width: 40px;
   height: 40px;
   padding: 15px;
+}
+
+.last-p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.last-p a {
+  text-decoration: none;
+  color: green;
+}
+
+a:hover {
+  color: yellowgreen;
+  font-weight: bold;
+}
+
+a:visited {
+  color: indigo;
 }

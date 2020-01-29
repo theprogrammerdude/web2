@@ -7,6 +7,10 @@ import ButtonGrid from "./components/ButtonGrid/ButtonGrid";
 import Links from "./components/Links/Links";
 import Test from "./components/Testimonials/Testimonials";
 
+import insta from "./assets/insta.png";
+import twitter from "./assets/twitter.png";
+import linkedin from "./assets/linkedin.png";
+
 export class App extends Component {
   constructor(props) {
     super(props);
@@ -29,8 +33,12 @@ export class App extends Component {
     return (
       <>
         <div className="nav-container">
-          <a href="https://www.leaderclasses.com/" className="baselink">
-            <h2>LeaderClasses</h2>
+          <a
+            href="https://www.leaderclasses.com/"
+            target="_black"
+            className="baselink"
+          >
+            <h1>LeaderClasses</h1>
           </a>
           <div className="ham-menu">
             <HamburgerButton
@@ -39,7 +47,7 @@ export class App extends Component {
               width={30}
               height={30}
               strokeWidth={5}
-              color="darkolivegreen"
+              color="indianred"
               animationDuration={0.5}
             />
           </div>
@@ -96,6 +104,99 @@ export class App extends Component {
         </div>
         <Links />
         <Test />
+        <h2>Campus Partners</h2>
+        <p className="end-p">
+          Representing an Institution? <br />
+          LeaderClasses is in a very interesting phase of its growth & is
+          actively looking to expand our Campus Partnerships Pan-India.
+          <br />
+          If your are an Institutional Representative of a University/College
+          interested in building a relationship with us, we invite you to review
+          our{" "}
+          <a
+            href="https://www.leaderclasses.com/campus-partners"
+            target="_black"
+          >
+            "Campus Partners
+          </a>{" "}
+          page & Submit your details via our Campus Partners page. <br />
+          We look forward to hear from you soon and will advice interest/next
+          step within 5 Business Days of receival of your{" "}
+          <a
+            href="https://www.leaderclasses.com/campus-partners-form"
+            target="_black"
+          >
+            "Campus Partners Form"
+          </a>{" "}
+          <br />
+          Thanks for your Time & Attention ! <br />
+          Team - LeaderClasses
+        </p>
+        <div className="end-div">
+          <a
+            href="https://www.leaderclasses.com/leaderclasses-contact-form"
+            id="contact"
+            target="_black"
+          >
+            Contact Us
+          </a>
+        </div>
+        <footer>
+          <div className="footer-sm">
+            <p>Share via -</p>
+            <a
+              href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2FLeaderClasses-105817960762777%2F%3Fmodal%3Dadmin_todo_tour&amp%3Bsrc=sdkpreparse&ext=1580320866&hash=AeYJHJCHE8Jsz6kA"
+              target="_black"
+            >
+              <img src={insta} />
+            </a>
+            <a
+              href="https://www.linkedin.com/shareArticle/?mini=true&url=linkedin.com/company/leaderclasses&title=&summary=&source="
+              target="_black"
+            >
+              <img src={linkedin} />
+            </a>
+            <a
+              href="https://twitter.com/home?status=https%3A//twitter.com/leaderclasses"
+              target="_black"
+            >
+              <img src={twitter} />
+            </a>
+          </div>
+          <div className="footer-sm">
+            <p>Follow Us -</p>
+            <a
+              href="https://www.instagram.com/leaderclassesofficial/"
+              target="_black"
+            >
+              <img src={insta} />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/leaderclasses/about/"
+              target="_black"
+            >
+              <img src={linkedin} />
+            </a>
+            <a href="https://twitter.com/leaderclasses" target="_black">
+              <img src={twitter} />
+            </a>
+          </div>
+          <div className="links">
+            <a href="https://www.leaderclasses.com/contact" target="_black">
+              Contact
+            </a>
+            <a
+              href="https://www.leaderclasses.com/terms-and-conditions"
+              target="_black"
+            >
+              Terms
+            </a>
+            <a href="https://www.leaderclasses.com/privacy" target="_black">
+              Privacy
+            </a>
+          </div>
+        </footer>
+        <p className="cp">Re-designed by TheProgrammerDude</p>
       </>
     );
   }
